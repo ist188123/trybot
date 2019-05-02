@@ -1,4 +1,4 @@
 {
-  "discord_bot_token": "<your bot token>",
+  "discord_bot_token": BOT_TOKEN,
   "owner": "<your Discord Snowflake ID>"
 }
