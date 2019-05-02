@@ -123,4 +123,5 @@ Client.on('guildUnavailable', guild => {
 	log.warn(`Guild ${guild.id} unavailable!`);
 });
 
-Client.login(private_settings.discord_bot_token);
+
+Client.login(process.env.BOT_TOKEN);
